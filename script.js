@@ -1,6 +1,6 @@
 const search = document.querySelector(".search");
 const form = document.querySelector("#searchform");
-form.addEventListener("sumbmit", (data) => {
+form.addEventListener("submit", (data) => {
   console.log(data);
   data.preventDefault();
   let searchquery = search.value;
