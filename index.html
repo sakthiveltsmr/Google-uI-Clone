@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./asset/icon.png" sizes="60x60" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Google UI Clone</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <ul class="links">
+          <li class="headerIcon">Gmail</li>
+          <li class="headerIcon">Images</li>
+          <li class="headerIcon">
+            <img src="./asset/p.jpg" alt="me" class="profilePic" />
+          </li>
+        </ul>
+      </header>
+      <main class="searchcontainer">
+        <img src="./asset/google-logo.jpg" alt="google logo" />
+        <form id="searchform">
+          <input
+            type="text"
+            class="search"
+            placeholder="Search something...."
+          />
+          <div class="searchbtncontainer">
+            <button id="btnsearch" type="submit" onclick="getData()">
+              Google Search
+            </button>
+            <button onclick="alert('Created By Sakthi')" type="reset">
+              I'm feeling lucky
+            </button>
+          </div>
+          <div class="lang">
+            <span>Languages Offered -</span>
+            <a href="#">தமிழ்</a>
+            <a href="#">हिन्दी</a>
+            <a href="#">বাংলা</a>
+            <a href="#">ગુજરાતી</a>
+            <a href="#">ਪੰਜਾਬੀ</a>
+            <a href="#">मराठी</a>
+          </div>
+        </form>
+      </main>
+      <footer class="footer">
+        <ul class="links">
+          <li class="link">Advertising</li>
+          <li class="link">Business</li>
+          <li class="link">About</li>
+        </ul>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
